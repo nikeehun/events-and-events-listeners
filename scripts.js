@@ -9,7 +9,7 @@ if ($('#second').click((event) => {
 
 
 if ($('#third').click((event) => {
-    let color = $("#color").val();
+    let color = $("#magic").val();
     $("button").css("background-color", color);
 
 }));
